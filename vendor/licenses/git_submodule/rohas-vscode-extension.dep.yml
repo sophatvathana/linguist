@@ -1,0 +1,10 @@
+---
+name: rohas-vscode-extension
+version: 249a90d8a163d19ae062408c4ae81248b226cf79
+type: git_submodule
+homepage: https://github.com/rohas-dev/rohas-vscode-extension.git
+license: apache-2.0
+licenses:
+- sources: README.md
+  text: MIT OR Apache-2.0
+notices: []

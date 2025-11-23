@@ -997,6 +997,8 @@ vendor/grammars/riot-syntax-highlight:
 - text.html.riot
 vendor/grammars/roc-vscode-unofficial:
 - source.roc
+vendor/grammars/rohas-vscode-extension:
+- source.rohas
 vendor/grammars/ros-tmlanguage:
 - source.rosmsg
 vendor/grammars/rust-syntax:

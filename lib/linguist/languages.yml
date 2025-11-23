@@ -9151,3 +9151,12 @@ xBase:
   tm_scope: source.harbour
   ace_mode: text
   language_id: 421
+rohas:
+  type: programming
+  color: "#4A90E2"
+  extensions:
+  - ".ro"
+  - ".rh"
+  tm_scope: source.rohas
+  ace_mode: text
+  language_id: 634642421

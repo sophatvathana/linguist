@@ -1091,6 +1091,9 @@
 [submodule "vendor/grammars/roc-vscode-unofficial"]
 	path = vendor/grammars/roc-vscode-unofficial
 	url = https://github.com/ivan-demchenko/roc-vscode-unofficial.git
+[submodule "vendor/grammars/rohas-vscode-extension"]
+	path = vendor/grammars/rohas-vscode-extension
+	url = https://github.com/rohas-dev/rohas-vscode-extension.git
 [submodule "vendor/grammars/ros-tmlanguage"]
 	path = vendor/grammars/ros-tmlanguage
 	url = https://github.com/jtbandes/ros-tmlanguage.git

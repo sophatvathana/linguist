@@ -725,6 +725,7 @@ This is a list of grammars that Linguist selects to provide syntax highlighting 
 - **q:** [komsit37/sublime-q](https://github.com/komsit37/sublime-q)
 - **reStructuredText:** [Lukasa/language-restructuredtext](https://github.com/Lukasa/language-restructuredtext)
 - **robots.txt:** [Nixinova/NovaGrammars](https://github.com/Nixinova/NovaGrammars)
+- **rohas:** [rohas-dev/rohas-vscode-extension](https://github.com/rohas-dev/rohas-vscode-extension)
 - **sed:** [Alhadis/language-sed](https://github.com/Alhadis/language-sed)
 - **templ:** [templ-go/templ-vscode](https://github.com/templ-go/templ-vscode)
 - **vCard:** [cstrachan88/vscode-vcard](https://github.com/cstrachan88/vscode-vcard)

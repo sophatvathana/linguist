@@ -1,0 +1,14 @@
+flow fetchNews {
+    step search {
+        prompt "Get top 5 tech news today"
+        output { headlines: string[] }
+    }
+}
+ 
+flow summarizeNews {
+    uses fetchNews
+    step summarize {
+        prompt "Summarize these headlines in 3 sentences"
+        output { summary: string }
+    }
+}

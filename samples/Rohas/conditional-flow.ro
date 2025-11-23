@@ -1,0 +1,17 @@
+userInput = "translate"
+sourceText = "Hello, how are you?"
+targetLanguage = "Khmer"
+
+flow translationFlow {
+    step checkInput {
+        isValid = sourceText != ""
+
+        if isValid {
+            message = "Translate the following text to " + targetLanguage + ": " + sourceText
+            prompt message
+        } else {
+            error = "Invalid input provided"
+        }
+    }
+}
+

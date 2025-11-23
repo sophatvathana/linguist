@@ -1,0 +1,17 @@
+
+async function fetchDefinition(term): String {
+    request = "Define " + term
+    prompt request
+    return "Definition for " + term
+}
+
+function summarizeDefinition(definition): String {
+    summaryText = "Summary: " + definition
+    return summaryText
+}
+
+term = "machine learning"
+definition = await fetchDefinition(term)
+summary = summarizeDefinition(definition)
+prompt summary
+

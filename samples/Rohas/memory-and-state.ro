@@ -1,0 +1,19 @@
+
+context = "customer_support"
+
+flow supportFlow {
+    step capture {
+        message = "Capture issue details for " + context
+        prompt message
+          memory: "short_term"
+          state: { topic: context }
+    }
+
+    parallel step respond {
+        response = "Provide helpful guidance for " + context
+        prompt response
+          memory: "short_term"
+          state: { topic: context, priority: "high" }
+    }
+}
+
